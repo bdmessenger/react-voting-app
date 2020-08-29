@@ -1,0 +1,111 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body * {
+    box-sizing: border-box;
+    @apply text-blue-800;
+}
+
+body {
+    @apply bg-blue-300;
+}
+
+button {
+    @apply bg-blue-400;
+    @apply text-white;
+    @apply p-2;
+    @apply rounded;
+    @apply m-1;
+    @apply select-none;
+}
+
+button:focus {
+    @apply bg-blue-500;
+    @apply outline-none;
+}
+
+select:focus {
+    @apply outline-none;
+}
+
+nav {
+    @apply w-full;
+    @apply bg-blue-500;
+    @apply h-12;
+}
+
+h1 {
+    @apply text-6xl;
+}
+
+h2 {
+    @apply text-5xl;
+}
+
+h3 {
+    @apply text-4xl;
+}
+
+h4 {
+    @apply text-3xl;
+}
+
+h5 {
+    @apply text-2xl;
+}
+
+h6 {
+    @apply text-xl;
+}
+
+.container {
+    @apply mx-auto;
+}
+
+.content {
+    @apply p-4;
+    @apply my-4;
+    @apply bg-gray-100;
+}
+
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    @apply text-blue-100;
+}
+
+.caret:hover {
+    @apply text-blue-200;
+}
+
+.button-style {
+    @apply bg-blue-400;
+    @apply text-white;
+    @apply p-2;
+    @apply rounded;
+    @apply m-1;
+}
+
+.submit-btn {
+    @apply bg-green-400;
+    @apply text-white;
+    @apply p-2;
+    @apply rounded;
+    @apply cursor-pointer;
+    @apply outline-none;
+    
+}
+
+.submit-btn:focus {
+    @apply bg-green-500;
+}
