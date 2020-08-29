@@ -1,4 +1,6 @@
 # React Voting Application
+<b>SQL is required. Didn't provide MongoDB setup.</b>
+
 Demo: https://polls.brant.work/
 
 <b>First, install packages:</b>
